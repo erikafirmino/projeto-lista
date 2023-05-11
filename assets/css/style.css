@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --color1:#04BFBF;
+    --fonte1:'Oswald', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--color1)
+}
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    font-family: var(--fonte1);
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-align: justify;
+    border-radius: 10px;
+}
+form input, form label, form button{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+form input{
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid gray;
+}
+form input:focus{
+    outline: 2px solid var(--color1);
+}
+form button{
+    border: none;
+    background: var(--color1);
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color:#028484;
+}
